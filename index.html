@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo Quiz</title>
+    <title>Quiz_fmp</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
+            background-color: #6696bd;
             margin-top: 50px;
         }
 
@@ -33,9 +34,9 @@
     </style>
 </head>
 <body>
-
+    <img src="http://fmpsc.edu.br/wp-content/uploads/2020/02/Logo-FMP-FINAL.png" width="250px height=180">
     <div class="quiz-container">
-        <h1>Jogo Quiz</h1>
+        <h2>FACULDADE MUNICIPAL DE PALHOÇA - FMP</h2>
         <div id="pergunta"></div>
 
         <div id="opcoes" class="opcao"></div>
@@ -48,19 +49,19 @@
     <script>
         const perguntas = [
             {
-                pergunta: "Qual é a capital do Brasil?",
-                opcoes: ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
-                resposta: "Brasília"
+                pergunta: "A Faculdade Municipal de Palhoça foi fundada no ano de:",
+                opcoes: ["2002", "2000", "1999", "2005"],
+                resposta: "2005"
             },
             {
-                pergunta: "Quem escreveu 'Dom Quixote'?",
-                opcoes: ["Machado de Assis", "Cervantes", "Shakespeare", "Garcia Lorca"],
-                resposta: "Cervantes"
+                pergunta: "A FMP é classificada como faculdade na categoria:",
+                opcoes: ["Particular", "Privada", "Pública", "Confessional"],
+                resposta: "Pública"
             },
             {
-                pergunta: "Quantos planetas fazem parte do sistema solar?",
-                opcoes: ["7", "8", "9", "10"],
-                resposta: "8"
+                pergunta: "A FMP está vinculada ao Sistema de Ensino:",
+                opcoes: ["Federal", "Estadual", "Municipal", "Nacional"],
+                resposta: "Federal"
             }
         ];
 
